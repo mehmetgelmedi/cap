@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$capKodPOST = $_SESSION['capKod'];
+	@$capKodPOST = $_SESSION['capKod'];
 	echo '<img src="cap.php" />
 	</br>
 	<form action="" method="post">
