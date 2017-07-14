@@ -1,7 +1,7 @@
 <?php 
    session_start();
    $capKod=substr(md5(rand(0,999999)),2,6);
-   $font="Kleymissky.otf";
+   $font="./Kleymissky.otf";
    $_SESSION['capKod']=$capKod;
 
    $capResim=imagecreate(120, 60);
