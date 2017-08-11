@@ -4,7 +4,7 @@
 	echo '<img src="cap.php" />
 	</br>
 	<form action="" method="post">
-	<label for="message">Kodu giriniz :</label>
+	<label name="lbl" for="message">Kodu giriniz :</label>
 	<input id="capText" name="capText" type="text">
  
 	<input type="submit" value="Gönder" name="submit">
